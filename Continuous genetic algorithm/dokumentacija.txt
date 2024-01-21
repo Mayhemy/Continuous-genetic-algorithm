@@ -1,0 +1,20 @@
+1.u pajtonu pisan projekat
+
+
+2.biblioteke korisćene:
+	import random
+	import sys
+	from locale import atof
+	import numpy as np
+	import subprocess
+	from matplotlib import pyplot as plot
+
+
+3. kada se pokrene progam može se zadati txt sa parametrima(ako se to ne desi cfg se koristi(moraju se rucno vrednosti upisati u cfg fajl ali je poprilicno straight forward variabla:unosKorisnika),
+ako ne postoji cfg koriste se default vrednosti, ali samo one vrednosti koje su bile nula ili nisu unešene u cfg filu se uzimaju default ostale koje su bile tu se unose regularno)
+parametri redom:broj_pokretanja,pop_vel,mut_rate,uvodjenje_procenta_potomaka(0,1)-npr dodaje se 80% populacije pa se od svih 180% uzima 100% sa najboljom func troska,rand_seed,path,lower_bound,upper_bound,number_of_genes,velicina_turnira
+,velicina_heuristickog_ukrstanja(ovo predstavlja broj puta pokusa da napravi potomka pre nego sto dodeli nove roditelje)-ovo je za korisnikov fajl ako zeli da ucita sa zarezima samo argumenti(bez new line-a na kraju)
+
+
+4.moj problem(k) kod prepisan u python(postoji i implementacija za c preko subprocesa, ali zbog dugog vremena testiranja sam odustao) 
+samo treba pokrenuti python program i proslediti mu parametre redom kojim su navedeni, output file je po defaultu GA-KXZK.txt koji se nalazi u istom folderu kao projekat.

@@ -1,0 +1,11 @@
+broj pokretanja:
+velicina populacije:
+mutation rate(0,1):
+procenat potomaka koji se dodaje(mozda se ne doda niko zavisi od func troska)1-cela nova pop se uzima u obzir :
+random seed:
+output path:
+lower bound:
+upper bound:
+broj gena(33):
+velicina turnirske selekcije:
+broj pokusaja heuristickog ukrstanja:
